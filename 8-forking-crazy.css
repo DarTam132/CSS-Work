@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-8 {
+  background: #6592cf;
+  height: 300px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.fork {
+  margin: 100px 43.5vh;
+  display: flex;
+  position: absolute;
+  top: -50px;
+  left: -197px;
+  z-index: 3;
+}
+.fork-tit-dark {
+  width: 20px;
+  height: 120px;
+  background: #060f55;
+  border-radius: 50px;
+}
+.fork-tit-blue {
+  width: 20px;
+  height: 110px;
+  background: #6592cf;
+  border-radius: 50px;
+}
+.fork-round {
+  width: 140px;
+  height: 180px;
+  background: #060f55;
+  border-radius: 500px;
+  position: absolute;
+  top: 75px;
+  left: 131px;
+  z-index: 2;
+}
+.fork-round::after {
+  content: "";
+  width: 20px;
+  height: 120px;
+  background: #060f55;
+  border-radius: 50px;
+  position: absolute;
+  top: 150px;
+  left: 60px;
+}

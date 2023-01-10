@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-9 {
+  background: #222730;
+  height: 300px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-square {
+  height: 150px;
+  width: 100%;
+  background: #4caab3;
+  position: absolute;
+  top: 75px;
+}
+.dark-square {
+  width: 250px;
+  height: 250px;
+  background: #222730;
+  rotate: 45deg;
+  position: absolute;
+  top: 25px;
+  left: 70px;
+  z-index: 2;
+}
+.mid-suaqre {
+  width: 150px;
+  height: 150px;
+  background: #4caab3;
+  rotate: 45deg;
+  position: absolute;
+  top: 75px;
+  left: 120px;
+  z-index: 3;
+}
+.mid-circle-tesseract {
+  width: 50px;
+  height: 50px;
+  background: #393e46;
+  border-radius: 50%;
+  position: absolute;
+  top: 125px;
+  left: 170px;
+  z-index: 4;
+}

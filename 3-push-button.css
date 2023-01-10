@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-3 {
+  background: #6592cf;
+  height: 300px;
+  width: 400px;
+  position: relative;
+}
+.rectangle-button {
+  width: 290px;
+  height: 150px;
+  background: #243d83;
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+.white-blue-circle {
+  width: 250px;
+  height: 250px;
+  background: #6592cf;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 70px;
+  z-index: 2;
+}
+.mid-dark-blue-circle {
+  width: 150px;
+  height: 150px;
+  background: #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 120px;
+  z-index: 3;
+}
+.round {
+  width: 50px;
+  height: 50px;
+  background: #eeb850;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  z-index: 4;
+}
