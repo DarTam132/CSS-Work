@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-16 {
+  width: 400px;
+  height: 300px;
+  background-color: #0b2429;
+  position: relative;
+}
+.big-sharp-eye {
+  width: 200px;
+  height: 200px;
+  background: #998235;
+  rotate: 45deg;
+  border-radius: 50% 0px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 1;
+}
+.black-tiger-border {
+  width: 180px;
+  height: 180px;
+  background: #0b2429;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  z-index: 2;
+}
+.mid-tiger-eye {
+  width: 138px;
+  height: 138px;
+  background-color: #0b2429;
+  border-radius: 50%;
+  border: solid 45px #f3ac3c;
+  position: absolute;
+  top: 81px;
+  left: 131px;
+  z-index: 3;
+}
