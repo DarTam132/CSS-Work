@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .body-14 {
+    width: 400px;
+    height: 300px;
+    background-color: #f2f2b6;
+    position: relative;
+  }
+  .figure-web-marker-1 {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #ff6d00;
+    position: absolute;
+    top: 85px;
+    left: 60px;
+    z-index: 2;
+  }
+
+  .figure-web-marker-1-1 {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #fd4602;
+    position: absolute;
+    top: 85px;
+    left: 80px;
+    z-index: 1;
+  }
+  .figure-web-marker-2 {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 130px solid #fd4602;
+    position: absolute;
+    top: 85px;
+    right: 80px;
+    z-index: 2;
+  }
+
+  .figure-web-marker-2-2 {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 130px solid #ff6d00;
+    position: absolute;
+    top: 85px;
+    right: 60px;
+    z-index: 1;
+  }
