@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body-19 {
+  width: 400px;
+  height: 300px;
+  background-color: #0b2429;
+  position: relative;
+}
+.body-19-left-part {
+  width: 100px;
+  height: 50px;
+  background-color: #998235;
+  rotate: -45deg;
+  transform: skew(-45deg);
+  position: absolute;
+  top: 89px;
+  left: 115px;
+}
+.body-19-cube {
+  width: 100px;
+  height: 100px;
+  background-color: #f3ac3c;
+  rotate: 45deg;
+  position: absolute;
+  top: 135px;
+  left: 150px;
+}
+.body-19-right-part {
+  width: 100px;
+  height: 50px;
+  background-color: #1a4341;
+  rotate: 45deg;
+  transform: skew(45deg);
+  position: absolute;
+  top: 89px;
+  right: 115px;
+}

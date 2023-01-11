@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-18 {
+  width: 400px;
+  height: 300px;
+  background-color: #5c434c;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.body-18-grid-element {
+  height: 80px;
+  width: 80px;
+  background-color: #f09462;
+  border-top-left-radius: 100px;
+}
+.dif-color {
+  background-color: #f5d6b4;
+}
