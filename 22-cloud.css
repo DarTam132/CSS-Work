@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-22 {
+  width: 400px;
+  height: 300px;
+  background-color: #f5d6b4;
+  position: relative;
+}
+.cloud-part-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #d86f45;
+  border-radius: 50%;
+  position: absolute;
+  top: 115px;
+  left: 100px;
+}
+.cloud-part-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #d86f45;
+  border-radius: 50%;
+  position: absolute;
+  top: 85px;
+  left: 180px;
+}
+.cloud-part-3 {
+  width: 170px;
+  height: 50px;
+  background-color: #d86f45;
+  border-radius: 50px;
+  position: absolute;
+  top: 165px;
+  left: 130px;
+}
