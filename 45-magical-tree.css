@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-45 {
+  width: 400px;
+  height: 300px;
+  background-color: #1a4341;
+  position: relative;
+  overflow: hidden;
+}
+.magical-tree-mid-line {
+  width: 30px;
+  height: 100%;
+  background-color: #f3ac3c;
+  position: absolute;
+  left: 185px;
+  z-index: 2;
+}
+.magical-tree-little-form {
+  width: 150px;
+  height: 180px;
+  background-color: transparent;
+  border: solid 30px #998235;
+  position: absolute;
+  top: -30px;
+  left: 125px;
+}
+.magical-tree-big-form {
+  width: 270px;
+  height: 250px;
+  background-color: transparent;
+  border: solid 30px #f3ac3c;
+  position: absolute;
+  top: -40px;
+  left: 65px;
+}
+.magical-tree-bottom-line {
+  width: 270px;
+  height: 30px;
+  background-color: #998235;
+  position: absolute;
+  top: 240px;
+  left: 65px;
+}

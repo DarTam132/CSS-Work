@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-44 {
+  width: 400px;
+  height: 300px;
+  background-color: #1a4341;
+  position: relative;
+  overflow: hidden;
+}
+.left-circle-stripes {
+  width: 180px;
+  height: 270px;
+  background-color: #1a4341;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  z-index: 2;
+}
+.mid-flex-stripes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 60px;
+  left: 110px;
+}
+
+.stripes-flex-element {
+  width: 180px;
+  height: 20px;
+  background-color: #f3ac3c;
+}
+.right-circle-stripes {
+  width: 180px;
+  height: 270px;
+  background-color: #1a4341;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  z-index: 2;
+}

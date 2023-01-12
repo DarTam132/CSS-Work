@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-43 {
+  width: 400px;
+  height: 300px;
+  background-color: #6592cf;
+  position: relative;
+  overflow: hidden;
+}
+.wrench-left-courtain {
+  width: 150px;
+  height: 245px;
+  background-color: #6592cf;
+  position: absolute;
+  top: 30px;
+  left: -5px;
+  z-index: 2;
+}
+.wrench-left-element {
+  width: 200px;
+  height: 245px;
+  background-color: #6592cf;
+  border: solid 29px #243d83;
+  border-radius: 70px;
+  margin-left: 20px;
+  position: absolute;
+  top: 30px;
+  left: -6px;
+}
+.wrench-right-element {
+  width: 200px;
+  height: 245px;
+  background-color: #6592cf;
+  border: solid 29px #243d83;
+  border-radius: 70px;
+  margin-left: 20px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+.wrench-right-courtain {
+  width: 150px;
+  height: 245px;
+  background-color: #6592cf;
+  position: absolute;
+  top: 30px;
+  left: 260px;
+  z-index: 2;
+}
