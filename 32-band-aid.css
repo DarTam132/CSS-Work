@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-32 {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.band-aid-first-elem {
+  width: 50px;
+  height: 200px;
+  background-color: #a3a368;
+  rotate: 45deg;
+  position: absolute;
+  z-index: 1;
+}
+.band-aid-mid-elem {
+  width: 50px;
+  height: 50px;
+  background-color: #fbe18c;
+  rotate: 45deg;
+  z-index: 2;
+}
+.band-aid-second-elem {
+  width: 50px;
+  height: 200px;
+  background-color: #f3ac3c;
+  rotate: -45deg;
+  position: absolute;
+  z-index: 1;
+}

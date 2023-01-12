@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-31 {
+  width: 400px;
+  height: 300px;
+  background-color: #aa445f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.first-equal {
+  width: 100px;
+  height: 200px;
+  background-color: #f7ec7d;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.second-equal {
+  width: 100px;
+  height: 200px;
+  background-color: #e38f66;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
