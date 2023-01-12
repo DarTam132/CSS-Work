@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-34 {
+  width: 400px;
+  height: 300px;
+  background-color: #007065;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.christmas-tree-top {
+  width: 0px;
+  height: 0px;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #ffeecf;
+  margin-bottom: -50px;
+  z-index: 3;
+}
+.christmas-tree-mid {
+  width: 0px;
+  height: 0px;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #f5c181;
+  margin-bottom: -50px;
+  z-index: 2;
+}
+.christmas-tree-bottom {
+  width: 0px;
+  height: 0px;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 100px solid #00a79d;
+}

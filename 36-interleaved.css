@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-36 {
+  width: 400px;
+  height: 300px;
+  background-color: #1a4341;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.interleaved-down {
+  width: 50px;
+  height: 200px;
+  background-color: #f3ac3c;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  align-self: flex-end;
+}
+.interleaved-up {
+  width: 50px;
+  height: 200px;
+  background-color: #998235;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-self: flex-start;
+}

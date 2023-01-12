@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-33 {
+  width: 400px;
+  height: 300px;
+  background-color: #1a4341;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-bird-part {
+  width: 75px;
+  height: 150px;
+  background-color: #998235;
+  margin-left: 25px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.right-bird-part {
+  width: 100px;
+  height: 100px;
+  background-color: #f3ac3c;
+  border-top-right-radius: 100px;
+  margin-bottom: 100px;
+}
+
+.bird-eye {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0b2429;
+  position: absolute;
+  top: 105px;
+  right: 215px;
+}
