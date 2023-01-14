@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-53 {
+  width: 400px;
+  height: 300px;
+  background-color: #19191a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pastel-main-circle {
+  width: 150px;
+  height: 150px;
+  background-color: #4f77ff;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+}
+.pastel-bottom-left {
+  width: 75px;
+  height: 75px;
+  background-color: #9ad5ff;
+  border-bottom-left-radius: 100px;
+  position: absolute;
+  top: 125px;
+  right: 200px;
+  z-index: 3;
+}
+.pastel-abstraction {
+  width: 75px;
+  height: 125px;
+  background-color: #f9e492;
+  position: absolute;
+  top: 125px;
+  right: 200px;
+}
