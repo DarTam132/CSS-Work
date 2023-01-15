@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-56 {
+  width: 400px;
+  height: 300px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skull-top-part {
+  width: 120px;
+  height: 100px;
+  background-color: #4f77ff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.skull-top-part::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  top: 138px;
+  left: 155px;
+}
+.skull-top-part::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  top: 138px;
+  right: 155px;
+}
+.skul-down-part {
+  width: 80px;
+  height: 30px;
+  background-color: #4f77ff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.skul-down-part::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #191919;
+  border-radius: 50%;
+  position: absolute;
+  top: 176px;
+  right: 190px;
+}
+.skul-tits-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 205px;
+}
+.skul-tit {
+  width: 10px;
+  height: 20px;
+  background-color: #191919;
+  border-radius: 50px;
+}
