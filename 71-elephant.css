@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-71 {
+  width: 400px;
+  height: 300px;
+  background-color: #998235;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.elephant-head {
+  background-color: #1a4341;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.elephant-eyes-container {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+.elephant-eye-big {
+  background-color: #998235;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elephant-eye-small {
+  background-color: #0b2429;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.elephant-ears-container {
+  display: flex;
+  position: absolute;
+  gap: 147px;
+  top: 60px;
+  z-index: 1;
+}
+
+.elephant-ear1 {
+  background: #0b2429;
+  box-shadow: 16px 0 #1a4341 inset;
+  width: 75px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.elephant-ear2 {
+  background: #0b2429;
+  box-shadow: -16px 0 #1a4341 inset;
+  width: 75px;
+  height: 180px;
+  border-radius: 45%;
+}
+.elephant-nose-help {
+  background: #0b2429;
+  border-radius: 55%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 180px;
+  z-index: 5;
+}
+.elephant-nose {
+  background: #0b2429;
+  width: 40px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  z-index: 5;
+}
+.elephant-horn {
+  background: transparent;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 20px #fff;
+  position: absolute;
+  top: 190px;
+  z-index: 3;
+}
+.elephant-help {
+  background: #998235;
+  width: 120px;
+  height: 80px;
+  position: absolute;
+  top: 250px;
+  z-index: 3;
+}

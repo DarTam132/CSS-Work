@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-70 {
+  width: 400px;
+  height: 300px;
+  background-color: #293462;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.froggy-eyes {
+  display: flex;
+  position: absolute;
+  top: 85px;
+  gap: 20px;
+  z-index: 3;
+}
+.froggy-eye {
+  background: #fe5f55;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.froggy-pupils {
+  background: #fff1c1;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.froggy-iris {
+  background: #293462;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.froggy-main-body {
+  background: radial-gradient(
+    circle at 50% -130px,
+    #fe5f55 200px,
+    #a64942 200px
+  );
+  width: 150px;
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: relative;
+  top: 10px;
+}
+.nose-container {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 50px;
+  left: 60px;
+}
+.froggy-nose {
+  background-color: #293462;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
